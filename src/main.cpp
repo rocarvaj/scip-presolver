@@ -103,6 +103,12 @@ int main(int argc, char** argv)
        << " " << SCIPgetNConss(scip)
        << " " << SCIPgetNOrigVars(scip)
        << " " << SCIPgetNVars(scip) 
+       << " " << SCIPgetNOrigContVars(scip)
+       << " " << SCIPgetNContVars(scip) 
+       << " " << SCIPgetNOrigBinVars(scip)
+       << " " << SCIPgetNBinVars(scip) 
+       << " " << SCIPgetNOrigIntVars(scip)
+       << " " << SCIPgetNIntVars(scip) 
        << " " << SCIPgetPresolvingTime(scip) << endl;
    logfile.close();
 
